@@ -7,7 +7,7 @@
 		"CAP": ["F-4E-45MC"],
 		"CAS": ["F-4E-45MC"],
 		"AWACS": ["E-3A"],
-		"DEAD": ["F-4E-45MC"],
+		"SEAD": ["F-4E-45MC"],
 		"Pinpoint Strike": ["F-4E-45MC"],
 		"CSAR": ["UH-1H"]
 	},

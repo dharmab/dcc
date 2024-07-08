@@ -27,6 +27,18 @@ export function Flag(props: { countryName: string; class?: string }) {
 				return Styles.sweden;
 			case "USA":
 				return Styles.usa;
+			case "Osea":
+				return Styles.osea;
+			case "Erusea":
+				return Styles.erusea;
+			case "Yuktobania":
+				return Styles.yuktobania;
+			case "Belka":
+				return Styles.belka;
+			case "Ustio":
+				return Styles.ustio;
+			case "ISAF":
+				return Styles.isaf;
 			default:
 				return Styles.usa;
 		}

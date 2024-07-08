@@ -1,0 +1,16 @@
+{
+	"countryName": "France",
+	"name": "Erusea",
+	"year": 2004,
+	"playable": true,
+	"aircraftTypes": {
+		"CAP": ["F-4E-45MC", "F-5E-3", "MiG-21Bis"],
+		"CAS": ["A-10A", "A-10C_2", "AH-64D_BLK_II", "AV8BNA", "Mi-24P"],
+		"AWACS": ["E-3A"],
+		"SEAD": ["F-4E-45MC"],
+		"Pinpoint Strike": ["F-4E-45MC"],
+		"CSAR": ["CH-47D"],
+		"Air Assault": ["CH-47D"]
+	},
+	"templateName": "France - Modern"
+}

@@ -38,7 +38,7 @@ const App = () => {
 				await loadCampaignIntoStore(state);
 			})
 			.catch((e) => {
-				console.error("RPC Load", e instanceof Error ? e.message : "unknown error"); // eslint-disable-line no-console
+				console.error("RPC Load", e instanceof Error ? e.message : "error: " + e); // eslint-disable-line no-console
 				setResumeState("error");
 			});
 	});

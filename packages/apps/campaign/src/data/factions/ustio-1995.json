@@ -1,0 +1,16 @@
+{
+	"countryName": "Poland",
+	"name": "Ustio",
+	"year": 1995,
+	"playable": true,
+	"aircraftTypes": {
+		"CAP": ["F-5E-3", "F-15C", "F-16C_50", "M-2000C"],
+		"CAS": ["A-10A", "A-10C"],
+		"AWACS": ["E-3A"],
+		"SEAD": ["F-16C_50"],
+		"Pinpoint Strike": ["F-16C_50"],
+		"CSAR": ["UH-60A"],
+		"Air Assault": ["UH-60A"]
+	},
+	"templateName": "Russia - Modern"
+}

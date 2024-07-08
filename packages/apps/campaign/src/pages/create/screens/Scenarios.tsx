@@ -21,7 +21,7 @@ const ScenarioItem = (props: {
 			case "operation-northern-shield":
 				return Styles["operation-northern-shield"];
 			default:
-				return;
+				return Styles["ace-combat-04"];
 		}
 	};
 

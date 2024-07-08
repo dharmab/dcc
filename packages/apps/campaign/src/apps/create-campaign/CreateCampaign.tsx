@@ -43,7 +43,7 @@ export const CreateCampaign = () => {
 			console.error(e);
 			createToast({
 				title: "Campaign not created",
-				description: e instanceof Error ? e.message : "Unknown Error",
+				description: e instanceof Error ? e.message : "Error: " + e,
 			});
 		}
 	};

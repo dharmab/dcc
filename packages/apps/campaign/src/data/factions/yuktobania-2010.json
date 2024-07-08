@@ -1,0 +1,42 @@
+{
+	"countryName": "Yuktobania",
+	"name": "Yuktobanian Air Force",
+	"year": 2010,
+	"playable": true,
+	"aircraftTypes": {
+		"CAP": [
+			"F-14A",
+			"F-14B",
+			"F-15C",
+			"F-16C_50",
+			"FA-18C_hornet",
+			"M-2000C",
+			"MiG-25PD",
+			"MiG-29A",
+			"Su-27"
+		],
+		"CAS": [
+			"A-10A",
+			"AH-64D_BLK_II",
+			"AV8BNA"
+		],
+		"AWACS": [
+			"A-50"
+		],
+		"DEAD": [
+			"F-16C_50"
+		],
+		"Pinpoint Strike": [
+			"F-117A",
+			"F-15ESE",
+			"F-16C_50",
+			"FA-18C_hornet",
+			"Tornado IDS",
+			"Tornado GR4"
+		],
+		"CSAR": [
+			"CH-47D"
+		]
+	},
+	"templateName": "Yuktobania - Circum-Pacific War"
+}

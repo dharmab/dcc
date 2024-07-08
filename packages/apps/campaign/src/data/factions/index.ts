@@ -1,29 +1,26 @@
 import type * as DcsJs from "@foxdelta2/dcsjs";
 
-import * as france82 from "./france-1982.json";
-import * as israel67 from "./israel-1967.json";
-import * as russia55 from "./russia-1955.json";
-import * as russia71 from "./russia-1971.json";
-import * as russia84 from "./russia-1984.json";
-import * as russia96 from "./russia-1996.json";
-import * as sweden70 from "./sweden-1970.json";
-import * as usnavy64 from "./us-navy-1964.json";
-import * as usnavy87 from "./us-navy-1987.json";
-import * as usa52 from "./usa-1952.json";
-import * as usa77 from "./usa-1977.json";
-import * as usa04 from "./usa-2004.json";
+import * as belka95 from "./belka-1995.json";
+import * as ustio95 from "./ustio-1995.json";
+import * as isaf04 from "./isaf-2004.json";
+import * as isaf05 from "./isaf-2005.json";
+import * as erusea04 from "./erusea-2004.json";
+import * as erusea05 from "./erusea-2005.json";
+import * as osea10 from "./osea-2010.json";
+import * as yuke10 from "./yuktobania-2010.json";
+import * as osea19 from "./osea-2019.json";
+import * as erusea19 from "./erusea-2019.json";
+
 
 export const factionList: Array<DcsJs.Faction> = [
-	usa52,
-	russia55,
-	usnavy64,
-	israel67,
-	sweden70,
-	russia71,
-	usa77,
-	france82,
-	russia84,
-	usnavy87,
-	russia96,
-	usa04,
+	belka95,
+	erusea04,
+	erusea05,
+	erusea19,
+	isaf04,
+	isaf05,
+	osea10,
+	osea19,
+	ustio95,
+	yuke10,
 ];

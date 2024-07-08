@@ -1,6 +1,5 @@
-import * as operationNorthernShield from "./operation-northern-shield.json";
-import * as redBullet from "./red-bullet.json";
-import * as roadToParis from "./road-to-paris.json";
+import * as bunkerShot from "./bunker-shot.json";
+import * as emancipation from "./emancipation.json";
 
 export type StructurePlan = {
 	structureName: string;
@@ -26,19 +25,18 @@ export type Scenario = {
 	briefing: string;
 	"blue-start-objective-range": [number, number];
 	"win-condition":
-		| {
-				type: "ground units";
-		  }
-		| {
-				type: "objective";
-				value: string;
-		  };
+	| {
+		type: "ground units";
+	}
+	| {
+		type: "objective";
+		value: string;
+	};
 	blue: ScenarioCoalition;
 	red: ScenarioCoalition;
 };
 
 export const scenarioList: Array<Scenario> = [
-	redBullet as unknown as Scenario,
-	operationNorthernShield as unknown as Scenario,
-	roadToParis as unknown as Scenario,
+	bunkerShot as unknown as Scenario,
+	emancipation as unknown as Scenario,
 ];

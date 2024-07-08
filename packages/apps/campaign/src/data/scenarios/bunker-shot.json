@@ -1,0 +1,32 @@
+{
+	"map": "caucasus",
+	"id": "bunker-shot",
+	"name": "Operation Bunker Shot",
+	"available": true,
+	"date": "2005-01-25",
+	"era": "Modern",
+	"briefing": "<p>ISAF troops are regrouped and ready to reclaim lost territory from the Eruseans. The plan requires our forces to follow a vulnerable path from the landing sites on the southern coast to the inland objectives. This path must punch through strategic footholds, providing the enemy with a distinctive advantage.</p> <p>Your mission is to support our troops by neutralizing enemy combat power to reduce troop casualties along the advance.</p>",
+	"win-condition": {
+		"type": "ground units"
+	},
+	"blue-start-objective-range": [
+		3,
+		4
+	],
+	"blue": {
+		"airdromeNames": [
+			"Batumi",
+			"Kobuleti"
+		],
+		"carrierObjective": "Alpha",
+		"objectivePlans": []
+	},
+	"red": {
+		"airdromeNames": [
+			"Senaki-Kolkhi",
+			"Kutaisi",
+			"Gudauta"
+		],
+		"objectivePlans": []
+	}
+}

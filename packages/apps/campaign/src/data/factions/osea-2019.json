@@ -1,0 +1,34 @@
+{
+	"countryName": "Osea",
+	"name": "Osea Air Defense Force",
+	"year": 2019,
+	"playable": true,
+	"aircraftTypes": {
+		"CAP": [
+			"F-14B",
+			"F-15C",
+			"F-16C_50",
+			"FA-18C_hornet",
+			"M-2000C"
+		],
+		"CAS": [
+			"A-10C_2"
+		],
+		"AWACS": [
+			"E-3A"
+		],
+		"DEAD": [
+			"F-16C_50",
+			"FA-18C_hornet"
+		],
+		"Pinpoint Strike": [
+			"F-15ESE",
+			"F-16C_50",
+			"FA-18C_hornet"
+		],
+		"CSAR": [
+			"UH-60A"
+		]
+	},
+	"templateName": "USA - Modern"
+}

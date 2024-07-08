@@ -15,7 +15,7 @@ const ScenarioItem = (props: { scenario: Scenario; onPress: (name: Scenario) => 
 			case "operation-northern-shield":
 				return Styles["operation-northern-shield"];
 			default:
-				return;
+				return Styles["ace-combat-04"];
 		}
 	};
 

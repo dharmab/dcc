@@ -1,6 +1,5 @@
-import * as operationNorthernShield from "./operation-northern-shield.json";
-import * as redBullet from "./red-bullet.json";
-import * as roadToParis from "./road-to-paris.json";
+import * as bunkerShot from "./bunker-shot.json";
+import * as emancipation from "./emancipation.json";
 
 export type StructurePlan = {
 	structureName: string;
@@ -37,8 +36,4 @@ export type Scenario = {
 	red: ScenarioCoalition;
 };
 
-export const scenarioList: Array<Scenario> = [
-	redBullet as unknown as Scenario,
-	operationNorthernShield as unknown as Scenario,
-	roadToParis as unknown as Scenario,
-];
+export const scenarioList: Array<Scenario> = [bunkerShot as unknown as Scenario, emancipation as unknown as Scenario];

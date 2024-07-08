@@ -1,0 +1,15 @@
+{
+	"countryName": "Erusea",
+	"name": "Erusean Air Force",
+	"year": 2004,
+	"playable": true,
+	"aircraftTypes": {
+		"CAP": ["F-4E", "F-5E-3", "MiG-21bis"],
+		"CAS": ["A-10A", "A-10C_2", "AH-64D_BLK_II", "AV8BNA", "Mi-24P"],
+		"AWACS": ["E-3A"],
+		"DEAD": ["F-4E"],
+		"Pinpoint Strike": ["F-4E"],
+		"CSAR": ["CH-47D"]
+	},
+	"templateName": "France - Modern"
+}

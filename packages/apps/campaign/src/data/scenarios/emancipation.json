@@ -1,0 +1,22 @@
+{
+	"map": "caucasus",
+	"id": "emancipation",
+	"name": "Emancipation",
+	"available": true,
+	"date": "2005-07-10",
+	"era": "Modern",
+	"briefing": "<p>Tbilisi was a neutral city at the start of the war until the Eruseans occupied it. We will now liberate this city. The heaviest resistance will come from the enemy's armored formations and attack helicopters. In addition, you must defend our allies from any airstrikes that may originate from Vaziani aribase. The Resistance fighters will end the blackout over the city.</p> <p>Suppress all enemy resistance and help liberate the city.</p>",
+	"win-condition": {
+		"type": "ground units"
+	},
+	"blue-start-objective-range": [5, 10],
+	"blue": {
+		"airdromeNames": ["Kobuleti"],
+		"carrierObjective": "Alpha",
+		"objectivePlans": []
+	},
+	"red": {
+		"airdromeNames": ["Batumi"],
+		"objectivePlans": []
+	}
+}

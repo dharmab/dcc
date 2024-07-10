@@ -1,0 +1,17 @@
+{
+	"countryName": "Combined Joint Task Forces Blue",
+	"name": "ISAF",
+	"year": 2004,
+	"playable": true,
+	"aircraftTypes": {
+		"CAP": ["F-4E-45MC", "F-5E-3"],
+		"CAS": ["A-10C_2"],
+		"AWACS": ["E-3A"],
+		"SEAD": ["F-4E-45MC"],
+		"DEAD": ["F-4E-45MC"],
+		"Pinpoint Strike": ["F-4E-45MC"],
+		"CSAR": ["UH-60A"],
+		"Air Assault": ["UH-60A"]
+	},
+	"templateName": "USA - Modern"
+}
